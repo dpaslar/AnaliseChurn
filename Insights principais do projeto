@@ -1,0 +1,10 @@
+## Insights principais do projeto
+
+1. **Ajuste do threshold de decisão**
+   Ajustar o threshold padrão (0.5) para um valor mais baixo melhora significativamente o recall da classe churn, permitindo identificar melhor os clientes em risco de cancelamento. Isso é fundamental para ações de retenção eficazes.
+
+2. **Balanceamento com SMOTE**
+   A aplicação da técnica SMOTE no conjunto de treino corrige o desbalanceamento da base, gerando amostras sintéticas da classe minoritária. Isso ajuda o modelo a aprender melhor as características dos clientes que dão churn, melhorando sua capacidade preditiva.
+
+3. **Comparação entre modelos**
+   Comparar modelos lineares, como Regressão Logística, com modelos baseados em árvore, como Random Forest, possibilita entender o equilíbrio entre interpretabilidade e desempenho. Essa análise é importante para escolher o modelo mais adequado ao problema de churn.
